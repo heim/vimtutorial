@@ -7,6 +7,7 @@ Now I expect that you master movements, insertions and deletions.
 Now we will look into deleting and entering insert-mode at the same time.
 
 For this we will use the 'c'. (For change).
+The change-command will delete text and simultaneously enter insert-mode.
 
 Change is good.
 
@@ -18,5 +19,43 @@ Task01: Change a word.
 
 Unsurprisingly the change-command is dependent of a corresponding movement command.
 To change a word, stand at the beginning of a word and press 'cw'.
+If you are positioned at the end of a word, use the 'cb'-command.
+Change the misspelled word on the next line.
+
+Hello word.
+
+Task02: Change a whole line
+
+If you issue the double 'c', aka 'cc' you will change the whole line.
+Change the following line to something more reasonable.
+
+Well, I guess that I just should go to my nearest electronics shop and buy an android phone.
+
+Task03:
+
+Try some of these commands if you like. They are based on the same principle as the delete commands from the previous lesson.
 
 
+cc: change the current line.
+c$ or D: change from current posittion to the end of the line.
+cG: change from current positionto the end of the document.
+cgg: change from current position to the start of the document
+cw: change from current position forward one word.
+cb: change from current position backward one word.
+c15G: change from current position to line 15.
+
+
+While playing with change-commands on the next few lines, you should undo the changes afterwards.
+
+* Change this line.
+
+* Change from - to the end of the line.
+
+* Change from any position in this line to the beginning of the document.
+
+* Change from any position in this line to the end of the document.
+
+* Change multiple lines using 'd49G'.
+
+
+Prepare for the next chapter, then you will learn how to use text-objects.
