@@ -15,6 +15,7 @@ Correct the following line:
 
 As a jjava programmmer I somettimess ennvy the C#-syntaxx.
 
+
 Task02: Deleting more than one character at the time
 
 Many commands accept a multiplier, for example the 'x' can be made to delete an arbitrary number of charachers.
@@ -23,8 +24,38 @@ Delete the extra characters by issuing '2x' on the appropriate places. Remember,
 Hellllo worrrlddd.
 
 
-Task03: Deleting, now with movements.
+Task03: Deleting, now with movements pt. 1.
 
 If you must delete more than one character at a time, the 'd' command is what you are looking for.
 By itself it does not do much, but when issued with a movement, you can literaly change the world (or at least the current document).
 
+To delete the false statement, navigate to the start of the second sentence and issue 'd0'. This means "delete to the beginning of the line".
+
+OMG, I just love php. I love Ruby.
+
+
+Task04: Deleting, now with movements pt. 2. 
+
+You can issue all sorts of movement commands to the delete command (and a huge array of other commands).
+Try these on for size:
+
+d$: delete from current posittion to the end of the line.
+dG: delete from current positionto the end of the document.
+dgg: delete from current position to the start of the document
+dw: delete from current position forward one word.
+db: delete from current position backward one word.
+d15G: delete from current position to line 15.
+
+While playing with deletion-commands on the next few lines, you should undo the changes afterwards.
+
+* Delete from - to the end of the line.
+
+* Delete from any position in this line to the beginning of the document.
+
+* Delete from any position in this line to the end of the document.
+
+* Delete the extra extra words in this this line.
+
+* Delete the extra extra words words in this line using 'db'.
+
+* Delete multiple lines using 'd49G'.
