@@ -1,0 +1,30 @@
+Lesson 03.
+
+# Deleting text.
+
+Sometimes you say or write the wrong things. More often, other people say or write the wrong things. 
+This lesson is about removing stuff.
+
+Tasks begin here:
+-----------------
+
+Task01: Deleting characters
+
+You can delete the character under the current cursor using 'x'.
+Correct the following line:
+
+As a jjava programmmer I somettimess ennvy the C#-syntaxx.
+
+Task02: Deleting more than one character at the time
+
+Many commands accept a multiplier, for example the 'x' can be made to delete an arbitrary number of charachers.
+Delete the extra characters by issuing '2x' on the appropriate places. Remember, you can undo the changes by pressing 'u'.
+
+Hellllo worrrlddd.
+
+
+Task03: Deleting, now with movements.
+
+If you must delete more than one character at a time, the 'd' command is what you are looking for.
+By itself it does not do much, but when issued with a movement, you can literaly change the world (or at least the current document).
+

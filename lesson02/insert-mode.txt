@@ -1,0 +1,39 @@
+Welcome to lesson two.
+
+# Insert-mode
+
+In this lesson you will get more familiar with the mode called insert-mode.
+We use insert-mode to edit and add text.
+
+To enter insert-mode, navigate to the place where you want to start insertion and press 'i'.
+
+When you are finished adding text, press <ESC> to exit insert-mode.
+
+
+Play below this line.
+PROTIP: If you screw something up, exit insert-mode and press 'u' to undo the last change.  Press <C-r> to redo if you get too eager.
+------------------------------------------------------------
+
+Task01: Inserting
+
+Correct the following line.
+
+Helo word.
+
+
+Task02: Appending
+
+As you might have noticed, 'i' inserts new characters at the current cursor position.
+If you want to insert characters after the cursor position you can use 'a'.
+
+Try this by putting a punctuation mark of your choice at the end of this line
+
+
+Task03: Inserting and appending at the start and end of the line
+
+Some times you want to edit directly at the start or the end of a line. To solve this you could issue '0i' to edit at the beginning, or '$a' to edit at the end of a line.
+Luckily VIM provides a shorthand for this.
+To insert at the beginning of the line use 'I', and use 'A' to append to the end of a line.
+Try to complete the sentence in the next line using I and A.
+
+IM for aspiring #ithipster 

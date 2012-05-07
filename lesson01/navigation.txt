@@ -1,0 +1,55 @@
+Welcome to VIM for aspiring #ithipsters.
+
+
+# Basic navigation
+
+In this lesson you will learn to navigate around a text document.
+
+Use h/j/k/l to navigate this document.
+
+h: left
+j: down
+k: up
+l: right
+
+To jump forward one word at a time press 'w', to jump one word backward press 'b'.  
+
+You can also use count-modifiers to any of the movement commands.
+For example, to jump 3 lines down, issue the command '3j'.
+
+To go to the beginning of a line press '0', and use '$' to go to the end of a line.
+To navigate to the beginning of the document issue the command 'gg'. Capital G gets you to the end of the document.
+If you want to go directly to a line, issue the line number + 'G', like this '15G'.
+
+
+Below this line is some text you can play with.
+-------------------------------------------------------------------------------------------- 
+
+"You gettee in," he added, motioning to me with his tomahawk, and throwing the clothes to one side. He really did this in not only a civil but a really kind and 
+charitable way. I stood looking at him a moment. For all his tattooings he was on the whole a clean, comely looking cannibal. What's all this fuss I have been 
+making about, thought I to myselfthe man's a human being just as I am: he has just as much reason to fear me, as I have to be afraid of him.
+Better sleep with a sober cannibal than a drunken Christian.
+
+"Landlord," said I, "tell him to stash his tomahawk there, or pipe, or whatever you call it; tell him to stop smoking, in short, and I will turn in with him.
+But I don't fancy having a man smoking in bed with me. It's dangerous. Besides, I ain't insured."
+
+This being told to Queequeg, he at once complied, and again politely motioned me to get into bedrolling over to one side as much as to say"I won't touch a leg of ye."
+
+"Good night, landlord," said I, "you may go."
+
+I turned in, and never slept better in my life.
+
+Upon waking next morning about daylight, I found Queequeg's arm thrown over me in the most loving and affectionate manner. You had almost thought I had been his wife.
+The counterpane was of patchwork, full of odd little parti-coloured squares and triangles; and this arm of his tattooed all over with an interminable Cretan labyrinth 
+of a figure, no two parts of which were of one precise shadeowing I suppose to his keeping his arm at sea unmethodically in sun and shade,
+his shirt sleeves irregularly rolled up at various timesthis same arm of his, I say, looked for all the world like a strip of that same patchwork quilt.
+Indeed, partly lying on it as the arm did when I first awoke, I could hardly tell it from the quilt, they so blended their hues together;
+and it was only by the sense of weight and pressure that I could tell that Queequeg was hugging me.
+
+My sensations were strange. Let me try to explain them. When I was a child, I well remember a somewhat similar circumstance that befell me;
+whether it was a reality or a dream, I never could entirely settle.
+The circumstance was this. I had been cutting up some caper or otherI think it was trying to crawl up the chimney, as I had seen a little sweep do a few days previous;
+and my stepmother who, somehow or other, was all the time whipping me, or sending me to bed supperless,my mother dragged me by the legs out of the chimney 
+and packed me off to bed, though it was only two o'clock in the afternoon of the 21st June, the longest day in the year in our hemisphere. I felt dreadfully.
+But there was no help for it, so up stairs I went to my little room in the third floor, undressed myself as slowly as possible so as to kill time,
+and with a bitter sigh got between the sheets.
