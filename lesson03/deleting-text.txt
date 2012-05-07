@@ -39,7 +39,8 @@ Task04: Deleting, now with movements pt. 2.
 You can issue all sorts of movement commands to the delete command (and a huge array of other commands).
 Try these on for size:
 
-d$: delete from current posittion to the end of the line.
+dd: delete the current line.
+d$ or D: delete from current posittion to the end of the line.
 dG: delete from current positionto the end of the document.
 dgg: delete from current position to the start of the document
 dw: delete from current position forward one word.
@@ -47,6 +48,8 @@ db: delete from current position backward one word.
 d15G: delete from current position to line 15.
 
 While playing with deletion-commands on the next few lines, you should undo the changes afterwards.
+
+* Delete this line.
 
 * Delete from - to the end of the line.
 
