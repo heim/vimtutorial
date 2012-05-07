@@ -1,0 +1,22 @@
+Lesson 04.
+
+# Changing text.
+
+Now I expect that you master movements, insertions and deletions.
+
+Now we will look into deleting and entering insert-mode at the same time.
+
+For this we will use the 'c'. (For change).
+
+Change is good.
+
+Tasks begin here:
+-----------------
+
+
+Task01: Change a word.
+
+Unsurprisingly the change-command is dependent of a corresponding movement command.
+To change a word, stand at the beginning of a word and press 'cw'.
+
+
