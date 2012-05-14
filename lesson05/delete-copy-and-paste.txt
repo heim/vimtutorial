@@ -1,0 +1,36 @@
+Lesson 05.
+
+# Delete yank (copy) and paste
+
+This lesson is about removing something and putting it elsewere.
+
+Tasks begin here:
+-----------------
+
+Task 01: Delete a line of text and put it somewere else
+-------------------------------------------------------
+To delete a piece of text, we use the 'd' command or in this case 'dd' to delete a whole line. This places the text in one of VIMs registers (or clipboard if you like).
+The 'p' command puts the content of the register after the cursor position. The 'P' command puts the content of the register *before* the cursor position.
+Try to reorder the following lines using 'dd' and 'p'. Also try to do the same with 'dd' and 'P'.
+
+
+in the springtime
+I love paris
+
+
+Task 02: Duplicating lines
+--------------------------
+To yank a piece of text, we use the 'y' command.
+By itself it does not do anything useful, but if we give it a motion to play with we can do interesting things.
+As you might have seen on other commands, doubling the command will make it operate on the line as a whole. Duplicate the following line a couple of times. What happens if you 'yy' and then press 'p' multiple times? What happens when you give 'p' a multiplier, '33p'
+
+Hello, I love you won't you tell me your name.
+
+Task 03: (Almost) all that is removed ends in the register.
+-----------------------------------------------------------
+Most of VIMs delete-commands does put the deleted content in a register. In this task we will quickly change the order of two letters. With the cursor positioned at the misplaced character press 'xp' to change the order of the letters. Remeber 'x' deletes the character under the cursor.
+
+I'm here at an awesome VMI-workshop at NCD.
+
+Task 05: Registers from a to z (literaly)
+-----------------------------------------
