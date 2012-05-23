@@ -22,7 +22,7 @@ Task 02: Duplicating lines
 --------------------------
 To yank a piece of text, we use the 'y' command.
 By itself it does not do anything useful, but if we give it a motion to play with we can do interesting things.
-As you might have seen on other commands, doubling the command will make it operate on the line as a whole. Duplicate the following line a couple of times. What happens if you 'yy' and then press 'p' multiple times? What happens when you give 'p' a multiplier, '33p'
+As you might have seen on other commands, doubling the command will make it operate on the line as a whole. Duplicate the following line a couple of times. What happens if you 'yy' and then press 'p' multiple times? What happens when you give 'p' a multiplier, for example '33p'
 
 Hello, I love you won't you tell me your name.
 
@@ -32,5 +32,28 @@ Most of VIMs delete-commands does put the deleted content in a register. In this
 
 I'm here at an awesome VMI-workshop at NCD.
 
-Task 05: Registers from a to z (literaly)
+Task 04: Registers from a to z (literaly)
 -----------------------------------------
+One of the more powerful features of VIM is the named registers, VIM has 26 of them and they are named 'a' through 'z'. To yank or delete a line into a named register
+we prefix the yank or delete command with '"' and the name of the register. Example: To yank the current line into register 'a' we would type '"ayy"'. If you instead
+want to delete the line you would issue '"add'. To paste the contents of a register we just prefix the appropriate put-command with the register name: '"ap'.
+
+Equipped with this deadly and powerful weapon, proceed to the task at hand.
+
+
+Yank this line into register 'a' without removing it.
+Delete this line and put the contents in register 'b'.
+Paste the contents of register 'a' beneath this line.
+Paste the contents of register 'b' above this line (no cheating).
+
+Bonus task!
+
+Yank this line and the line under it without using visual mode, and paste it somewhere.
+(since we assume no prior VIM experience, you probably don't have a clue about how to enter visual mode anyway)
+
+Task 05: Inspector gadget.
+--------------------------
+VIM lets you inspect the contents of the different registers with the ':reg' command. Try it now.
+Do you see the contents of the named registers? What about the registers from 0-9 you may ask. This is a stack containing all the 10 latest pieces of text
+that has been 'd'eleted or 'c'hanged. Try it out now with some various commands and inspect the register afterwards to see what effect the different commands
+have on the contents of the registers. Can you figure out what the name of the anonymous register is (the one that gets populated when you do a regular 'yy')?
