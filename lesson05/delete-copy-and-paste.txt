@@ -15,7 +15,7 @@ Try to reorder the following lines using 'dd' and 'p'. Also try to do the same w
 
 
 in the springtime
-I love paris
+I love Paris
 
 
 Task 02: Duplicating lines

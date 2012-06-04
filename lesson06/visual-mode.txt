@@ -1,0 +1,89 @@
+Lesson 06.
+----------
+
+# Visual mode, the most visual mode #
+
+This lesson is about visually select chunks of text using VIMs Visual mode.
+Visual mode gives you an intuitive method to select and act upon selections.
+
+Onward to the tasks.
+
+Task 01: Select with visual mode
+--------------------------------
+To start a visual selection, make sure you're in normal mode (press "Esc") and hit
+the 'v'-key.
+You now have entered visual mode and you can start selecting text by navigating the cursor (with h/j/k/l).
+
+Try it now.
+
+
+Task 02: Use movements
+----------------------
+When in visual-mode you can also issue other movement-commands.
+
+Try to select *these three words* by entering visual-mode and use the 'w'-key (maybe with a multiplier).
+
+You can also issue go-commands, e.g. '15G' (go to line 15), 'gg' (top of document), and 'G' (go to end of document). Play around a bit.
+
+Task 03: Yank, delete and put
+-------------------------------
+The yank, delete and put commands do also work in visual-mode. Try them out!
+
+Yank some of this text,
+And put it below this line: ____
+
+
+Task 04: Select linewise
+------------------------
+To more quickly select larger portions of text we can use a special visual-mode called Visual-line. Surprisingly it selects one line at a time, visually.
+
+Try to use visual-line, delete and put to re-order the following lines.
+
+3. Third
+1. First
+2. Second
+4. Fourth
+
+Task 05: Block select
+---------------------
+But wait, there is more special visual modes. Now we will get on with a mode called visual-block.
+This mode enables you to draw a rectangle on the screen and select text. Hard to imagine? Try this:
+- navigate down to the table
+- position the cursor at the beginning of the table header
+- enter visual-block-mode by pressint 'C-v' (thats Ctrl-v).
+- press '4l' and '5j'.
+- now you can try to press 'd' to delete this column. Nice?
+
+ id | name | occupation |
+-------------------------
+ 01 | Jon  | Nurse      |
+ 02 | Jan  | Programmer |
+ 02 | Geir | Superhero  |
+ 02 | Tor  | Musician   |
+
+
+Task 06: Winning with block select pt. 1
+----------------------------------------
+Let us say that you have a piece of Javascript code that you want to comment out.
+- navigate to the first line of code
+- enter visual block mode
+- press '3j', 'I', '//' and then Escape. Nice? (if you screw up, remember to undo with 'u')
+
+console.log("hello");
+alert("world");
+console.log("bye");
+alert("cruel world");
+
+Task 07: Winning with block select pt. 2
+----------------------------------------
+Let us take the piece of code from the last task, but now let us imagine that
+we have been writing Coffeescript or ruby for a long time, and we have forgotten
+to add semicolons at the end of each line.
+- navigate to the first line of code, and go to the end of the line with '$'
+- enter visual block mode
+- press '3j', 'A', ';' and then Escape. Nice?
+
+console.log("hello")
+alert("world")
+console.log("bye")
+alert("cruel world")

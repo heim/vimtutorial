@@ -1,0 +1,18 @@
+Lesson 07
+
+#Text objects
+
+Surgical selection of pieces of text
+
+T1
+Visual select of inner word
+T2
+Visual select inner paranthesis
+T3
+Visual select outer parenthesis
+T4
+Visual select outer word
+T5
+put it together, delete
+T6
+Yank inner word
