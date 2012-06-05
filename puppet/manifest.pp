@@ -9,6 +9,20 @@ define vimtutor_user($git_repo = "git://github.com/heim/vimtutorial.git") {
       ensure => present,
     }
   }
+  file { "/home/$name/.vimrc":
+    content => 'set number
+                nnoremap <up> <nop>
+                nnoremap <down> <nop>
+                nnoremap <left> <nop>
+                nnoremap <right> <nop>
+                inoremap <up> <nop>
+                inoremap <down> <nop>
+                inoremap <left> <nop>
+                inoremap <right> <nop>',
+    owner => $name,
+    group => $name,
+  }
+    
   exec { "clone-vim-files-for-$name":
     path => "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin",
     user => $name,
