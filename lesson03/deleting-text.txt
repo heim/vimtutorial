@@ -59,7 +59,7 @@ While playing with deletion-commands on the next few lines, you should undo the 
 
 * Delete from any position in this line to the beginning of the document.
 
-* Delete from any position in this line to the end of the document.
+* Delete from any position in this line to the end of the document. Undo with 'u'
 
 * Delete the extra extra words in this this line.
 
