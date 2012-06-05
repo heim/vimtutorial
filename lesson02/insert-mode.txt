@@ -36,4 +36,7 @@ Luckily VIM provides a shorthand for this.
 To insert at the beginning of the line use 'I', and use 'A' to append to the end of a line.
 Try to complete the sentence in the next line using I and A.
 
+When done get out with a bang: Hit ESC type ':' then 'q!'
+You just left this place without leaving a trace.
+
 IM for aspiring #ithipster 

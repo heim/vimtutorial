@@ -1,0 +1,247 @@
+<html lang="en">
+    <head>
+        <style>
+            body{
+                width:1024px;
+                font-size:20px;
+                color: #F0A048;
+                background: #573A1A;
+                background-image: linear-gradient(bottom, rgb(0,0,0) 20%, rgb(112,91,67) 60%);
+                background-image: -o-linear-gradient(bottom, rgb(0,0,0) 20%, rgb(112,91,67) 60%);
+                background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 20%, rgb(112,91,67) 60%);
+                background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 20%, rgb(112,91,67) 60%);
+                background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 20%, rgb(112,91,67) 60%);
+
+                background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(0.2, rgb(0,0,0)),
+                color-stop(0.6, rgb(112,91,67))
+                );
+            }
+            #hack {
+              font-size: 150px;
+            }
+            .slide {
+              display: block;
+
+              width: 900px;
+              height: 600px;
+              padding: 40px 60px;
+
+              background-color: white;
+              border: 1px solid rgba(0, 0, 0, .3);
+              border-radius: 10px;
+              box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+              color: rgb(102, 102, 102);
+              text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+              font-size: 30px;
+              /*line-height: 36px;*/
+              letter-spacing: -1px;
+            }
+            .slide ul {
+              font-size: 30px;
+              text-indent: 5px;
+              text-align: left;
+            }
+            #start{
+                text-align:center;
+                width:1024px;
+                font-size:80px;
+            }
+            #slide1{
+                text-align:center;
+                width:1024px;
+                font-size:80px;
+            }
+            #slide2{
+                text-align:center;
+                width:1024px;
+                font-size:80px;
+            }
+            #vim {
+              font-size: 300px;
+            }
+            #small-part {
+              width: 500px;
+            }
+            .step{
+                text-align:center;
+                width:1024px;
+                font-size:80px;
+            }
+
+            #slide7{
+                width:400px;
+            }
+            #slide8{
+                width:400px;
+            }
+            #slide9{
+                width:400px;
+            }
+
+            .hint_text{
+                font-size:30px;
+                background-color:#705B43;
+                padding:15px;
+            }
+
+            .fallback-message {
+                font-family: sans-serif;
+                line-height: 1.3;
+
+                width: 780px;
+                padding: 10px 10px 0;
+                margin: 20px auto;
+
+                border: 1px solid #E4C652;
+                border-radius: 10px;
+                background: #EEDC94;
+            }
+
+            .fallback-message p {
+                margin-bottom: 10px;
+            }
+            .small {
+              font-size: 30px;
+            }
+            .small a {
+              text-decoration: none;
+              font-color: #A36D31;
+            }
+            .impress-supported .fallback-message {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="impress">
+            <div id="start" class="step slide">
+                <p>VIM for aspiring #ithipsters</p>
+                <p class="small">Andreas Heim</p>
+            </div>
+
+           <div id="step1" class="step slide" data-x="1200">
+                <p> blog (occationally) </p>
+                <p><a href="http://heim.no">heim.no</a></p>
+            </div>
+
+            <div id="slide2" class="step slide" data-x="2400">
+                <p> twitter (norwegian ranting) </p>
+                <p><a href="http://twitter.com/heim">@heim</a></p>
+            </div>
+            <div id="vim" class="step" data-x="3600" data-y="500" data-scale="3" data-rotate="150">
+                <p>VIM</p>
+            </div>
+            <div id="small-part" class="step" data-x="3600" data-y="500" data-z="-6000" data-rotate="-150">
+                <p>Small part.</p>
+            </div>
+
+            <div id="slide4" class="step slide" data-x="0" data-y="800">
+                <p>Why VIM?</p>
+                <ul>
+                  <li>widely available</li>
+                  <li>more efficient editing</li>
+                  <li>#it-hipster credibility</li>
+                </ul>
+            </div>
+            <div class="step slide" data-x="1200" data-y="800">
+                <p>Modal editor</p>
+                <ul>
+                  <li>normal mode (navigating)</li>
+                  <li>insert mode (writing)</li>
+                  <li>visual mode (selecting)</li>
+                  <li>many keys have different meanings in different modes</li>
+                </ul>
+            </div>
+            <div class="step" data-x="8000" data-y="1600" data-scale="3">
+              <p>Let's get started</p>
+            </div>
+            <div class="step" data-x="8000" data-y="2400" data-scale="3">
+              <p>you will need an ssh client</p>
+            </div>
+            <div class="step" data-x="8000" data-y="3200" data-scale="3">
+              <p>and a bit of patience</p>
+            </div>
+            <div class="step" data-x="8000" data-y="3600" >
+              <p>and some unix knowledge</p>
+            </div>
+            <div class="step" data-x="8000" data-y="4000" data-z="-2000">
+              <p>(and probably a beer afterwards)</p>
+            </div>
+            <div class="step" data-x="-1500" data-y="0" >
+              <p>username: userXX</p>
+              <p>password: password</p>
+              <p>vim.heim.no</p>
+            </div>
+            <div class="step" data-x="-4800" data-y="0" data-z="-300">
+              <p>cd vimtutorial</p>
+              <p>cat README</p>
+              <p>vi lesson01/navigation.txt</p>
+            </div>
+            <div id="hack" class="step" data-x="-3000" data-y="0" data-scale="3">
+              <p>hack away!</p>
+            </div>
+
+            <div class="step slide" data-x="0" data-y="1600">
+                <p>Harsh mistress</p>
+                <img src="/images/harsh.gif" height="287" width="380"/>
+            </div>
+            <div class="step slide" data-x="1200" data-y="1600">
+                <p>It will make a fool out of you!</p>
+                <img src="/images/fool.gif" height="287" width="380"/>
+            </div>
+            <div class="step slide" data-x="2400" data-y="1600">
+                <p>Give you great speed</p>
+                <img src="/images/speed.gif" height="287" width="380"/>
+            </div>
+            <div class="step slide" data-x="3600" data-y="1600">
+                <p>... and you will be able to do amazing things</p>
+                <img src="/images/amazing.gif" height="287" width="380"/>
+            </div>
+
+<!--
+
+            <div id="slide5" class="step" data-x="3200" data-rotate="150">
+                <p>This Slide Rotates Clockwise Around z-axis</p>
+            </div>
+
+            <div id="slide6" class="step" data-x="6200" data-scale='3'>
+                <p>This Slide Scales 3 Times</p>
+            </div>
+
+            <div id="slide7" class="step" data-x="4200" data-y='1500' data-z='1500'>
+                <p>Away</p>
+            </div>
+
+            <div id="slide8" class="step" data-x="4900" data-y='1500' data-z='100'>
+                <p>Towards</p>
+            </div>
+
+            <div id="slide9" class="step" data-x="5600" data-y='1500' data-z='-1500'>
+                <p>Futher Towards</p>
+            </div>
+
+            <div id="slide10" class="step" data-x="6600" data-y='3000' data-scale='10'>
+                <p>Visualization Slide Positions</p>
+            </div>
+-->
+        </div>
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js,
+     so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>,
+    <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+
+        <script type="text/javascript" src="js/impress.js"></script>
+        <script type="text/javascript">impress().init();</script>
+
+    </body>
+</html>

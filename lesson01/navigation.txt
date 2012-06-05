@@ -23,6 +23,7 @@ If you want to go directly to a line, issue the line number + 'G', like this '15
 
 
 Below this line is some text you can play with.
+When done, then ESC yourself. Hit ESC then ':' then 'q'  
 -------------------------------------------------------------------------------------------- 
 
 "You gettee in," he added, motioning to me with his tomahawk, and throwing the clothes to one side. He really did this in not only a civil but a really kind and 
