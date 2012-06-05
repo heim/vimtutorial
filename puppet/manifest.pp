@@ -26,6 +26,14 @@ define vimtutor_user($git_repo = "git://github.com/heim/vimtutorial.git") {
     command => "git pull origin master",
     require => Exec["clone-vim-files-for-$name"],
   }
+  exec { "reset-vimtutor-for-$name":
+    path => "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin",
+    user => $name,
+    group => $name,
+    cwd => "/home/$name/vimtutorial",
+    command => "git reset --hard origin/master",
+    require => Exec["update-vimtutor-for-$name"],
+  }
   user { $name:
     ensure => present,
     password   => '$6$3tAbWwbE$EJnRmlGvlO7bcXym9f88LPffh0zHR1.Uw6af2HhS0FF5VGol2SIk3D4KQ2uMUPTcgI29DK7EAz28N18rtumm0/',
