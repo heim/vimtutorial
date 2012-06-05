@@ -57,3 +57,11 @@ VIM lets you inspect the contents of the different registers with the ':reg' com
 Do you see the contents of the named registers? What about the registers from 0-9 you may ask. This is a stack containing all the 10 latest pieces of text
 that has been 'd'eleted or 'c'hanged. Try it out now with some various commands and inspect the register afterwards to see what effect the different commands
 have on the contents of the registers. Can you figure out what the name of the anonymous register is (the one that gets populated when you do a regular 'yy')?
+
+
+
+----------------------------------------------------------------------------------
+Time for another lesson.
+- it is called 'lesson06/visual-mode.txt'
+- you can do it!
+----------------------------------------------------------------------------------

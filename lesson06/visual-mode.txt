@@ -87,3 +87,10 @@ console.log("hello")
 alert("world")
 console.log("bye")
 alert("cruel world")
+
+
+
+----------------------------------------
+Time for the last lesson. 
+- 'lesson07/text-objects.txt'
+----------------------------------------

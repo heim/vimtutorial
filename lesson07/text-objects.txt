@@ -2,17 +2,95 @@ Lesson 07
 
 #Text objects
 
-Surgical selection of pieces of text
+This lesson is about interacting with pieces of text with surgical precision. Onward with the tasks.
+Task 01: Visual select of inner word
+------------------------------------
 
-T1
-Visual select of inner word
-T2
-Visual select inner paranthesis
-T3
-Visual select outer parenthesis
-T4
-Visual select outer word
-T5
-put it together, delete
-T6
-Yank inner word
+To enter visual-mode and select an inner word, place the cursor inside the word
+and issue 'viw'. (*v*isual *i*nner *w*ord)
+
+Try to visually select *this* word (or any other, you're the boss)
+
+(Stuck in visual mode? Just press 'Esc' a couple of times)
+
+Task 02: Visual select inner parenthesis
+----------------------------------------
+
+If you are using a programming language which utilize parenthesis, this might come in handy.
+Visually select the inner content of parenthesis by issuing 'vi)'
+
+Try (it on) this (line (right here), it might give you an) eye (opener).
+
+Task 03: Visual select outer parenthesis
+----------------------------------------
+
+Outer parenthesis you say? This includes the parenthesis. 
+Issue 'va)'. (*v*isual *a*round *)*... parenthesis).
+
+Try (it on) this (line (right here), it might give you another) eye (opener).
+
+Task 04: Visual select outer word
+---------------------------------
+
+You can also select around a word, can you figure out how?
+
+This is some text to play with.
+
+Task 05: Delete inner and outer word
+--------------------------
+
+But what happens if you replace the 'v' in e.g. 'viw' with the delete command 'd'?
+
+Try it out here:
+
+Delete the extra extra words words.
+
+What happens if you select around the words instead?
+
+Task 06: Yank inner and outer word
+----------------------------------
+
+It is useful to yank words, and other stuff. You probably can figure out how to
+modify the commands to be able to yank ('y') text-objects?
+
+Try to yank something (from this (line)).
+
+Task 07: Change inner and outer word, or other.
+--------------------------
+
+This might not come as a surprise, if you issue 'c' instead of 'y', you can precisely change a word or contents of a parenthesis.
+
+Try to change the contents of the next few lines.
+
+I really like pizzzza.
+
+if(misssspelledMethod == false)
+
+
+Task 08: And what about tags?
+-----------------------------
+
+HTML you say? VIM I say!
+
+Change inner and outer contents of tags with 'cit' and 'cat'. Try to experiment with different cursor placements.
+Remember, here 'u' is your friend.
+
+<div>
+  <p>Hello world</p>
+</div>
+
+Task 09: ...oh, and one last thing... 
+--------------------------------------
+
+I almost forgot to mention, it works with strings as well.
+E.g. 'ci"' and 'ci'' 
+
+
+var text = "This is some changeable text"
+var other = 'So is this, man text-objects are neat'
+
+
+
+************************************************************************************
+* Congratulations, you are now one step further on your path to VIM-enlightenment. *
+************************************************************************************
