@@ -47,5 +47,5 @@ IM for aspiring #ithipster
 
 
 ------------------------------------------------------------------------------------------------------
-When you are done, move on to the next lesson by opening the next file ':e lesson03/deleting-text.txt'
+When you are done, move on to the next lesson by opening the next file ':e! lesson03/deleting-text.txt'
 ------------------------------------------------------------------------------------------------------
