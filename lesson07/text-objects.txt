@@ -93,4 +93,6 @@ var other = 'So is this, man text-objects are neat'
 
 ************************************************************************************
 * Congratulations, you are now one step further on your path to VIM-enlightenment. *
+* Now remains only one last thing to master, MACROS.                               *
+* You can find the last task in lesson08/macros.txt                                *
 ************************************************************************************

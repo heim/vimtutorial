@@ -1,0 +1,41 @@
+Lesson 08
+
+# Macros
+
+Macros are at the heart of VIM, this is an advanced topic, so dont
+be alarmed if you don't master these techniques at once.
+
+Macros record a sequence of keystrokes, and can be executed afterwards an
+arbitrary number of times.
+
+A quick example.
+
+Say that we wanted to record a macro for 'delete inner word'.
+This is what we had to type.
+- 'qa' 'q' to start recording macro, and 'a' to put it in macro register 'a'
+- 'diw' to delete inner word
+- 'q' to stop recording
+- to execute the macro, we would issue '@a' (execute macro in register 'a').
+
+
+
+Raiders of The Last Task(tm).
+-----------------------------
+
+Below is a list of strings that represent various javascript files.
+Can you create a macro that wraps those strings in a <script>-tag?
+
+E.g. this:
+js/jquery.js
+Should become this:
+<script src="js/jquery.js"></script>
+
+
+
+js/jquery.js
+js/underscore.js
+js/backbone.js
+js/obscure.js
+js/app.js
+
+
