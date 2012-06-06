@@ -11,7 +11,8 @@ When you are finished adding text, press <ESC> to exit insert-mode.
 
 
 Play below this line.
-PROTIP: If you screw something up, exit insert-mode and press 'u' to undo the last change.  Press <C-r> to redo if you get too eager.
+PROTIP: If you screw something up, exit insert-mode and press 'u' to undo the last change.
+Press <C-r> to redo if you get too eager.
 ------------------------------------------------------------
 
 Task01: Inserting
