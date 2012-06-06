@@ -35,8 +35,9 @@ And put it below this line: ____
 
 Task 04: Select linewise
 ------------------------
-To more quickly select larger portions of text we can use a special visual-mode called Visual-line. Surprisingly it selects one line at a time, visually.
-
+To more quickly select larger portions of text we can use a special visual-mode called Visual-line.
+Surprisingly it selects one line at a time, visually.
+Enter visual-line mode by issuing 'V'.
 Try to use visual-line, delete and put to re-order the following lines.
 
 3. Third
