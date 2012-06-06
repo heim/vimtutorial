@@ -57,7 +57,7 @@ While playing with change-commands on the next few lines, you should undo the ch
 
 * Change from any position in this line to the end of the document.
 
-* Change multiple lines using 'd49G'.
+* Change multiple lines using 'c49G'.
 
 
 ---------------------------------------------------------------------------------------------------------
