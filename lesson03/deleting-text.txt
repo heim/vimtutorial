@@ -12,7 +12,7 @@ Task01: Deleting characters
 ---------------------------
 
 You can delete the character under the current cursor using 'x'.
-Correct the following line:
+Correct the following line: (use 'h/j/k/l', 'w' or 'b' to navigate)
 
 As a jjava programmmer I somettimess ennvy the C#-syntaxx.
 
@@ -44,8 +44,8 @@ You can issue all sorts of movement commands to the delete command (and a huge a
 Try these on for size:
 
 dd: delete the current line.
-d$ or D: delete from current posittion to the end of the line.
-dG: delete from current positionto the end of the document.
+d$ or D: delete from current position to the end of the line.
+dG: delete from current position to the end of the document.
 dgg: delete from current position to the start of the document
 dw: delete from current position forward one word.
 db: delete from current position backward one word.
@@ -66,3 +66,13 @@ While playing with deletion-commands on the next few lines, you should undo the 
 * Delete the extra extra words words in this line using 'db'.
 
 * Delete multiple lines using 'd49G'.
+
+
+-----------------------------------------------------------------
+When you are finished let us move to the next lesson.
+If you want to you can also save your changes before you move on:
+- make sure you are in normal-mode by 'Esc'-ing.
+- type ':w' and hit enter.
+- voila, you have saved a file
+- open the next lesson by typing ':e lesson04/changing-text.txt'
+-----------------------------------------------------------------
