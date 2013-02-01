@@ -20,7 +20,7 @@ For example, to jump 3 lines down, issue the command '3j'.
 
 To go to the beginning of a line press '0', and use '$' to go to the end of a line.
 To navigate to the beginning of the document issue the command 'gg'. Capital G gets you to the end of the document.
-If you want to go directly to a line, issue the line number + 'G', like this '15G'.
+If you want to go directly to a line, issue ':' + the line number, like this ':15'.
 
 You can also do a quick search forward or backward for a character. Use 'f' followed by the character you want to search for.
 Example: To move the cursor to the next occurence of the letter 'u', you issue 'fu'.
