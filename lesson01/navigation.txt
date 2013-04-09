@@ -1,9 +1,5 @@
 Welcome to VIM for aspiring #ithipsters.
 
-#foo-bar
-
-#baz
-
 # Basic navigation
 
 In this lesson you will learn to navigate around a text document.
