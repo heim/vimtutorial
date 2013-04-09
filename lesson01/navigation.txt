@@ -1,5 +1,6 @@
 Welcome to VIM for aspiring #ithipsters.
 
+#foo-bar
 
 # Basic navigation
 
